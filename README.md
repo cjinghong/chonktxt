@@ -24,7 +24,7 @@ client.use_doc_pdf("./large-pdf.pdf")
 client.use_doc_txt("This is a very very long text")
 
 # Get contextualized chunks
-contextualized_chunks, token_counts = client.situate_context(
+contextualized_chunks, token_counts = client.contextualize_chunks(
     chunks=[
         "Chain-of-Thought (Wei et al., 2022) 28.0 ±3.1 34.9 ±3.2 15.0 ±2.5 77.8 ±2.8 88.9 ±2.2",
     ],
