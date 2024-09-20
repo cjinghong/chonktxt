@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chonktxt"
-version = "0.1.0"
+version = "0.1.1"
 description = "An SDK that makes it easy to do contextual chunking"
 readme = "README.md"
 authors = [
@@ -17,7 +17,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
-dependencies = ["anthropic"]
+dependencies = ["anthropic","pdfminer.six","tqdm"]
 
 [project.urls]
 homepage = "https://github.com/cjinghong/chonktxt"

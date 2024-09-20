@@ -1,3 +1,3 @@
-from .chonktxt import ChonktxtClient
+from .chonktxt import Chonktxt
 
-__all__ = ["ChonktxtClient"]
+__all__ = ["Chonktxt"]
