@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chonktxt"
+version = "0.1.0"
+description = "An SDK that makes it easy to do contextual chunking"
+readme = "README.md"
+authors = [
+    { name = "Jing Hong", email = "jinghongchan@gmail.com" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = ["anthropic"]
+
+[project.urls]
+homepage = "https://github.com/cjinghong/chonktxt"
